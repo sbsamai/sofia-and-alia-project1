@@ -81,24 +81,28 @@ def dream_male_weight(filename:str):
 # function 1
 
 def female_chinstrap_birthyear_2008(filename:str):
-       count = 0
-       for row in csv_f:
+    csv_f = read_penguins(filename)
+       
+    count = 0
+    for row in csv_f:
             sex = row[7]
             species = row[1]
             birth_year = row[8]
-
-        if (
+            
+            if (
             sex == "female" and
             species == "Chinstrap" and
             birth_year == 2008
         ):
-        return count
+    return count
 
 
 # function 2
 
 
 def gentoo_female_avg_flipper_after_2007(filename:str):
+    csv_f = read_penguins(filename)
+    
     total = 0
     count = 0
 
@@ -153,6 +157,8 @@ class TestPenguinFunctions(unittest.TestCase):
     def setUp(self):
         self.filename = "penguin_subset1.csv"
         self.filename2 = "penguin_subset2.csv"
+        self.filename3 = "penguin_subset3.csv"
+        self.filename4 = "penguin_subset4.csv"
 
     # general case
     def test_general_avg_female_adelie_bill_length(self):
@@ -177,6 +183,34 @@ class TestPenguinFunctions(unittest.TestCase):
 
     def write_to_file(self):
         write_results_to_file(self.filename)
+
+
+
+
+# alia's test cases
+
+# test first function
+
+    def test_general_female_chinstrap_birthyear_2008(self):
+        self.assertEqual(female_chinstrap_birthyear_2008(self.filename3), ) # hard code actual number
+    
+
+    def test_edge_female_chinstrap_birthyear_2008(self):
+        self.assertNotEqual(female_chinstrap_birthyear_2008(self.filename3), ) # put in wrong number if function counted all males and females
+
+
+    
+
+# test second function
+
+    def test_general_gentoo_female_avg_flipper_after_2007(self):
+        self.assertAlmostEqual(gentoo_female_avg_flipper_after_2007(self.filename4), ) # put average flipper length
+
+
+    
+
+    def test_edge_gentoo_female_avg_flipper_after_2007(self):
+        self.assertNotEqual(gentoo_female_avg_flipper_after_2007(self.filename4), ) 
 
 
 def main():
