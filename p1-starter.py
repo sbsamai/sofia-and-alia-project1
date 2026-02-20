@@ -13,7 +13,7 @@ import csv
 
 
 def read_penguins(filename:str):
-
+ 
     source_dir = os.path.dirname(os.path.abspath(__file__))
     full_path = os.path.join(source_dir, filename)
     f = open(full_path)
