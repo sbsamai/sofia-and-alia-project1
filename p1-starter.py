@@ -76,7 +76,54 @@ def dream_male_weight(filename:str):
     return count
 
 
+# alia's functions
 
+# function 1
+
+def female_chinstrap_birthyear_2008(filename:str):
+       count = 0
+       for row in csv_f:
+            sex = row[7]
+            species = row[1]
+            birth_year = row[8]
+
+        if (
+            sex == "female" and
+            species == "Chinstrap" and
+            birth_year == 2008
+        ):
+        return count
+
+
+# function 2
+
+
+def gentoo_female_avg_flipper_after_2007(filename:str):
+    total = 0
+    count = 0
+
+    for row in csv_f:
+        sex = row[7]
+        species = row[1]
+        flipper_length = row[5]
+        birth_year = row[8]
+
+        if (
+            sex == "female" and
+            species == "Gentoo" and
+            flipper_length != "NA" and 
+            flipper_length != "" and
+            birth_year > 2007
+
+        ):
+            total += float(flipper_length)
+            count += 1
+
+    if count == 0:
+        return None
+    avg_flipper_length = total / count
+    return avg_flipper_length
+        
 
 
 # write outputs to a .txt file
