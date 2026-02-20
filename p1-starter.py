@@ -22,6 +22,11 @@ def read_penguins(filename:str):
     return csv_f
 
 
+
+# sofia's code here:
+
+
+
 # function 1
 
 def avg_female_adelie_bill_length(filename:str):
@@ -186,6 +191,7 @@ class TestPenguinFunctions(unittest.TestCase):
 
 
 
+<<<<<<< HEAD
 
 # alia's test cases
 
@@ -212,6 +218,25 @@ class TestPenguinFunctions(unittest.TestCase):
     def test_edge_gentoo_female_avg_flipper_after_2007(self):
         self.assertNotEqual(gentoo_female_avg_flipper_after_2007(self.filename4), ) 
 
+# alia's code here:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 def main():
     filename = "penguins.csv"
@@ -220,3 +245,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+

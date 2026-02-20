@@ -1,0 +1,6 @@
+do "","species","island","bill_length_mm","bill_depth_mm","flipper_length_mm","body_mass_g","sex","year"
+"302","Chinstrap","Dream",52,19,197,4150,"male",2007
+"303","Chinstrap","Dream",50.5,18.4,200,3400,"female",2008
+"304","Chinstrap","Dream",49.5,19,200,3800,"male",2008
+"305","Chinstrap","Dream",46.4,17.8,191,3700,"female",2008
+"306","Chinstrap","Dream",52.8,20,205,4550,"male",2008
