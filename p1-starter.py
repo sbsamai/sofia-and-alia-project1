@@ -97,8 +97,9 @@ def female_chinstrap_birthyear_2008(filename:str):
             if (
             sex == "female" and
             species == "Chinstrap" and
-            birth_year == 2008
-        ):
+            birth_year == 2008):
+                
+                count += 1
     return count
 
 
@@ -191,7 +192,7 @@ class TestPenguinFunctions(unittest.TestCase):
 
 
 
-<<<<<<< HEAD
+#<<<<<<< HEAD
 
 # alia's test cases
 
