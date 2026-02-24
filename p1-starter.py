@@ -97,7 +97,8 @@ def female_chinstrap_birthyear_2008(filename:str):
             if (
             sex == "female" and
             species == "Chinstrap" and
-            birth_year == 2008):
+            birth_year == 2008
+            ):
                 
                 count += 1
     return count
@@ -199,11 +200,11 @@ class TestPenguinFunctions(unittest.TestCase):
 # test first function
 
     def test_general_female_chinstrap_birthyear_2008(self):
-        self.assertEqual(female_chinstrap_birthyear_2008(self.filename3), ) # hard code actual number
+        self.assertEqual(female_chinstrap_birthyear_2008(self.filename3), 2) # hard code actual number
     
 
     def test_edge_female_chinstrap_birthyear_2008(self):
-        self.assertNotEqual(female_chinstrap_birthyear_2008(self.filename3), ) # put in wrong number if function counted all males and females
+        self.assertNotEqual(female_chinstrap_birthyear_2008(self.filename3), 4) # put in wrong number if function counted all males and females
 
 
     
@@ -211,13 +212,13 @@ class TestPenguinFunctions(unittest.TestCase):
 # test second function
 
     def test_general_gentoo_female_avg_flipper_after_2007(self):
-        self.assertAlmostEqual(gentoo_female_avg_flipper_after_2007(self.filename4), ) # put average flipper length
+        self.assertAlmostEqual(gentoo_female_avg_flipper_after_2007(self.filename4), 213.17, places=2) # put average flipper length
 
 
     
 
     def test_edge_gentoo_female_avg_flipper_after_2007(self):
-        self.assertNotEqual(gentoo_female_avg_flipper_after_2007(self.filename4), ) # put in wrong value if included males and females
+        self.assertNotEqual(gentoo_female_avg_flipper_after_2007(self.filename4), 211.28) # put in wrong value if included all breeds
 
 
 
