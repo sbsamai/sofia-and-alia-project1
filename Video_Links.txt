@@ -4,4 +4,4 @@ Instructions for submitting videos:
 2. Change the visibility of the folder from "Restricted" to "University of Michigan".
 3. Add a link to the Google Drive folder below.
 
-Link:
+Link: https://drive.google.com/drive/folders/1jj8r14pZd3fIXsXgPr38Tkh1TXurE9kr?usp=sharing
