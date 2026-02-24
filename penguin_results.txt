@@ -1,4 +1,6 @@
 The results of the first two functions are as follows: The average bill length of female Adelie penguins is: 37.26 mm
 The number of male penguins on Dream Island that weight more than 4500 g is: 5
+The number of female Chinstrap penguins born in 2008 is: 9
+The average flipper length for female Gentoo penguins born after 2007 is: 213.33 mm
 
 

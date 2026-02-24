@@ -147,11 +147,15 @@ def write_results_to_file(input_filename, output_file = "penguin_results.txt"):
 
     avg_bill_female = avg_female_adelie_bill_length(input_filename)
     dream_males = dream_male_weight(input_filename)
+    chinstrap_female_born = female_chinstrap_birthyear_2008(input_filename)
+    gentoo_flipper_length = gentoo_female_avg_flipper_after_2007(input_filename)
 
     with open(output_path, "w") as csv_f:
         csv_f.write(f"The results of the first two functions are as follows: ")
         csv_f.write(f"The average bill length of female Adelie penguins is: {avg_bill_female:.2f} mm\n")
         csv_f.write(f"The number of male penguins on Dream Island that weight more than 4500 g is: {dream_males}\n")
+        csv_f.write(f"The number of female Chinstrap penguins born in 2008 is: {chinstrap_female_born}\n")
+        csv_f.write(f"The average flipper length for female Gentoo penguins born after 2007 is: {gentoo_flipper_length:.2f} mm\n")
         csv_f.write("\n\n")
 
 
