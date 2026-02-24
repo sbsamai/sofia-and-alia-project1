@@ -217,7 +217,7 @@ class TestPenguinFunctions(unittest.TestCase):
     
 
     def test_edge_gentoo_female_avg_flipper_after_2007(self):
-        self.assertNotEqual(gentoo_female_avg_flipper_after_2007(self.filename4), ) 
+        self.assertNotEqual(gentoo_female_avg_flipper_after_2007(self.filename4), ) # put in wrong value if included males and females
 
 
 
