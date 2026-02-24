@@ -97,7 +97,7 @@ def female_chinstrap_birthyear_2008(filename:str):
             if (
             sex == "female" and
             species == "Chinstrap" and
-            birth_year == 2008
+            birth_year == "2008"
             ):
                 
                 count += 1
@@ -124,7 +124,7 @@ def gentoo_female_avg_flipper_after_2007(filename:str):
             species == "Gentoo" and
             flipper_length != "NA" and 
             flipper_length != "" and
-            birth_year > 2007
+            birth_year > "2007"
 
         ):
             total += float(flipper_length)
@@ -162,10 +162,10 @@ class TestPenguinFunctions(unittest.TestCase):
 
     # function 1 test cases
     def setUp(self):
-        self.filename = "penguin_subset1.csv"
-        self.filename2 = "penguin_subset2.csv"
-        self.filename3 = "penguin_subset3.csv"
-        self.filename4 = "penguin_subset4.csv"
+        self.filename = "sofia-penguin_subset1.csv"
+        self.filename2 = "sofia-penguin_subset2.csv"
+        self.filename3 = "alia-penguin_subset3.csv"
+        self.filename4 = "alia-penguin_subset4.csv"
 
     # general case
     def test_general_avg_female_adelie_bill_length(self):
