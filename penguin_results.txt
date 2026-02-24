@@ -1,4 +1,4 @@
-The average bill length of female Adelie penguins is: 37.26 mm
-The number of male penguins on Dream Island that weight more than 5500 g is: 5
+The results of the first two functions are as follows: The average bill length of female Adelie penguins is: 37.26 mm
+The number of male penguins on Dream Island that weight more than 4500 g is: 5
 
 

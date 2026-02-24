@@ -1,1 +1,13 @@
 "","species","island","bill_length_mm","bill_depth_mm","flipper_length_mm","body_mass_g","sex","year"
+"195","Gentoo","Biscoe",45.3,13.7,210,4300,"female",2008
+"198","Gentoo","Biscoe",43.6,13.9,217,4900,"female",2008
+"199","Gentoo","Biscoe",45.5,13.9,210,4200,"female",2008
+"207","Gentoo","Biscoe",46.5,14.4,217,4900,"female",2008
+"255","Gentoo","Biscoe",47.2,15.5,215,4975,"female",2009
+"267","Gentoo","Biscoe",46.2,14.1,217,4375,"female",2009
+"259","Gentoo","Biscoe",41.7,14.7,210,4700,"female",2009
+"273","Gentoo","Biscoe",46.8,14.3,215,4850,"female",2009
+"271","Gentoo","Biscoe",47.2,13.7,214,4925,"female",2009
+"262","Gentoo","Biscoe",48.1,15.1,209,5500,"male",2009
+"155","Gentoo","Biscoe",48.7,14.1,210,4450,"female",2007
+"303","Chinstrap","Dream",50.5,18.4,200,3400,"female",2008
