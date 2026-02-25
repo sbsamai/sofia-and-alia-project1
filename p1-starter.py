@@ -195,10 +195,6 @@ class TestPenguinFunctions(unittest.TestCase):
     def write_to_file(self):
         write_results_to_file(self.filename)
 
-
-
-#<<<<<<< HEAD
-
 # alia's test cases
 
 # test first function
