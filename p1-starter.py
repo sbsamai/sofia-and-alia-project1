@@ -1,12 +1,16 @@
-# Name: Sofia Samai
-# Student ID:
-# Email: sbsamai@umich.edu
-# Who or what you worked with on this homework (including generative AI like ChatGPT):
+# Name: Sofia Samai, Alia Somero
+# Student ID: (alia) 95677398, 
+# Email: sbsamai@umich.edu, aliasome@umich.edu
+# Who or what you worked with on this homework (including generative AI like ChatGPT): 
+# I (alia) used GenAI to help me, my partner sofia, and Wells the GSI. 
 # If you worked with generative AI also add a statement for how you used it.
+# I (alia) used generative AI to help me with the structure of my functions. 
 # e.g.:
 # Asked ChatGPT hints for debugging and suggesting the general structure of the code
+# Yes, I (alia) asked for hints with debugging parts of my functions when I got stuck.
 # Did your use of GenAI on this assignment align with your goals and guidelines in 
 #    your Gen AI contract? If not, why?
+# (alia) They did because I made sure to get support for the parts I wasn't fully understanding. 
 
 import os
 import csv
